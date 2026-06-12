@@ -1,5 +1,4 @@
-// [TODO] Implement the new 'Keyboard' interface
-public class StandardKeyboard {
+public class StandardKeyboard implements Keyboard {
     public void type() {
         System.out.println("Typing on a standard keyboard...");
     }
